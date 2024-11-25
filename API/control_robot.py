@@ -17,4 +17,4 @@ error_code, left_motor_handle = sim.simxGetObjectHandle(clientID, '/PioneerP3DX/
 error_code, right_motor_handle = sim.simxGetObjectHandle(clientID, '/PioneerP3DX/rightMotor', sim.simx_opmode_oneshot_wait)
 
 error_code = sim.simxSetJointTargetVelocity(clientID, left_motor_handle, 0.2, sim.simx_opmode_oneshot_wait)
-error_code = sim.simxSetJointTargetVelocity(clientID, right_motor_handle, 0.4, sim.simx_opmode_oneshot_wait)
+error_code = sim.simxSetJointTargetVelocity(clientID, right_motor_handle, 0.2, sim.simx_opmode_oneshot_wait)

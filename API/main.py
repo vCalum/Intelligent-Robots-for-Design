@@ -47,7 +47,7 @@ if returnCode != sim.simx_return_ok:
     print(f"Failed to start streaming from vision sensor. Return Code: {returnCode}")
     sys.exit(1)
 
-model = load_model('../model_creation/Models/model-0.9922680258750916.h5')
+model = load_model('../model_creation/Models/model-0.9573643207550049.h5')
 
 # Recompile with metrics
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])

@@ -5,3 +5,4 @@ model_creation/model.weights.h5
 # Ignore all .npy and .h5 files in the project (optional)
 *.npy
 *.h5
+*.jpg

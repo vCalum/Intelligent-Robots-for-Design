@@ -6,3 +6,4 @@ model_creation/model.weights.h5
 *.npy
 *.h5
 *.jpg
+*.mkv
